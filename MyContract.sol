@@ -31,4 +31,4 @@ contract MyToken is ERC20Token{
         super.mint();
         owners.push(msg.sender);
     }
-}
+} 
